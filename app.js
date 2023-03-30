@@ -1,19 +1,14 @@
-class Person {
-	constructor(obj){
-        this.name = obj.name;
-        this.age = obj.age;
-        this.friend = obj.friend;
-    }
-
-    sayHelloToFriend() {
-      document.getElementById("voice").innerHTML = `Hi, ${this.friend}`;
-    }
+class Macbook {
+	// you can code here
 }
 
-const Mike = new Person({
-  name: "Mike",
-  age: 20,
-  friend: "Mayu"
+const myMachine = new Macbook({
+  screenWidth: 15,
+  color: "Yellow"
 });
 
-Mike.sayHelloToFriend();
+// Q1
+myMachine.showSpec();
+
+// Q2
+// myMachine.showPrice();
